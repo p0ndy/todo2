@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color:    white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+ color:    white;
+ opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+ color:    white;
+ opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color:    white;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+ color:    white;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+ color:    white;
+}
+.App {
+  text-align: center;
+}
+
+body{
+  position: absolute;
+    top:  30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #6F6760;
+    font-family: "Roboto";
+}
+
+
+form{
+  display: flex;
+  justify-content: space-around;
+}
+
+.qwe{
+  background-color: #42444B;
+  border: 2.5px solid;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  
+
+}
+
+input{
+  border: none; 
+  padding: 5px;
+  background-color: rgb(122, 121, 121);
+  color: white;
+  outline: none;
+  width: 100%;
+}
+
+button{
+  border: none;
+  background-color: #4B564C;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .2s ease;
+  color: white;
+}
+button:hover{
+  color: rgb(230, 230, 230);
+  background-color: #59635b;
+}
+
+p{
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+  color: white;
+  padding: 8px 8px;
+  
+}
+.x{
+  width: auto;
+}
+
+
+
+
+
+
+
